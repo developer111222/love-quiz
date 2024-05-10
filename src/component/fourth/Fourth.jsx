@@ -17,7 +17,7 @@ const Fourth = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Check if both names are "John"
-    if (name1.toLowerCase() === 'anish' && name2.toLowerCase() === 'tammana' && name1.toLowerCase()==="manya" ) {
+    if (name1.toLowerCase() === 'anish' && name2.toLowerCase() === 'tammana'  ) {
       setResult(100);
     } else if (name1.toLowerCase() === 'tammana' && name2.toLowerCase() === 'anish') {
       setResult(100);
@@ -26,11 +26,12 @@ const Fourth = () => {
   else if (name1.toLowerCase() === 'manya' && name2.toLowerCase() === 'anish') {
     setResult(100);
   }
-else if (name1.toLowerCase() === 'anish' || name2.toLowerCase() === 'manya') {
+else if (name1.toLowerCase() === 'anish' && name2.toLowerCase() === 'manya') {
   setResult(100);
 } 
     else {
-      setResult(50);
+      const randomPercentage = Math.floor(Math.random() * 100) + 1;
+      setResult(randomPercentage);
     }
   };
 
