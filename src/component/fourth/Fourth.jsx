@@ -36,7 +36,7 @@ else if (name1.toLowerCase() === 'anish' || name2.toLowerCase() === 'manya') {
 
   return (
     <div>
-      <h1>Quiz</h1>
+      <h1>Love Quiz Detector</h1>
       <form onSubmit={handleSubmit}>
         <div className='inp'>
           <label>
@@ -64,7 +64,7 @@ else if (name1.toLowerCase() === 'anish' || name2.toLowerCase() === 'manya') {
         <div className='back'>
           <div className='inner'>
           <h2>Result</h2>
-          <p>{name1} and {name2},<br/> your love percentage is: {result}%</p>
+          <p>{name1} and {name2},<br/> your love percentage is: <br/><span>{result}%</span></p>
           </div>
         </div>
       )}
