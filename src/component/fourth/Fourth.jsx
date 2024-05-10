@@ -64,7 +64,7 @@ else if (name1.toLowerCase() === 'anish' || name2.toLowerCase() === 'manya') {
         <div className='back'>
           <div className='inner'>
           <h2>Result</h2>
-          <p>{name1} and {name2}, your percentage is: {result}%</p>
+          <p>{name1} and {name2},<br/> your love percentage is: {result}%</p>
           </div>
         </div>
       )}

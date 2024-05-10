@@ -52,4 +52,7 @@ button{
 padding: 10px;
  
   }
+  .inp input{
+    width: 100%;
+  }
 }
