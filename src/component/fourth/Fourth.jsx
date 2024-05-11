@@ -17,9 +17,9 @@ const Fourth = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Check if both names are "John"
-    if (name1.toLowerCase() === 'anish' && name2.toLowerCase() === 'tammana'  ) {
+    if (name1.toLowerCase() === 'anish' && name2.toLowerCase() === 'tamanna'  ) {
       setResult(100);
-    } else if (name1.toLowerCase() === 'tammana' && name2.toLowerCase() === 'anish') {
+    } else if (name1.toLowerCase() === 'tamanna' && name2.toLowerCase() === 'anish') {
       setResult(100);
     } 
     
